@@ -19,7 +19,7 @@ const crearArchivo = async (base=5, l=false, hasta=10)=>{
         }
    
 
-        fs.writeFileSync(`./salida/tabla_x_${base}`,salida);
+        fs.writeFileSync(`./salida/tabla_x_${base}.txt`,salida);
          return `tabla del ${base} creada`;
     
 
